@@ -1,6 +1,50 @@
 # git-comandos
 
+Arquivo de pesquisa:
+```bash
+https://www.freecodecamp.org/portuguese/news/10-comandos-do-git-que-todo-desenvolvedor-deveria-conhecer/
+```
+
+- PUSH
+- Apos fazer o commit. Enviar as alteracoes (atualizar) para o servidor remoto
+
+```bash
+    git push <repositorio-remoto> <branch>
+```
+
+Entretanto, se a sua branch foi recém-criada, também é preciso fazer o upload da branch com o seguinte comando:
+
+```bash
+    git push --set-upstream <repositório-remoto> <nome-da-branch>
+```
+
+ou
+
+```bash
+    git push -u origin <nome-da-branch>
+```
+
+
+**Criar uma nova branch:**
+
+
+
 ## Erro:
+
+```bash
+* branch            main       -> FETCH_HEAD
+Already up to date.
+```
+
+**Explicacao:**
+Seu repositorio local esta igual o repositorio remoto (nessa branch).
+
+**FAZER O COMANDO:**
+
+```bash
+    fazer alguma alteracao no arquivo ou entao mudar para a branch que tem as modificacoes
+```
+
 
 ```bash
 fatal: No configured push destination.
