@@ -65,10 +65,10 @@ Sua maquina local nao esta conectada a nenhum repositorio do github.
 ## Erro:
 
 ```bash
-fatal: The current branch main has no upstream branch.
+fatal: The current branch nome_da_branch has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
-    git push --set-upstream origin master
+    git push --set-upstream origin nome_da_branch
 ```
 
 **Explicacao:**
@@ -79,6 +79,8 @@ Voce nao definiu para qual branch vai enviar.
 ```bash
     git push --set-upstream origin nome_da_branch
 ```
+
+- Acontece quando você cria uma branch nova e tenta da o push pela primeira vez daquela branch
 
 ## Erro:
 
