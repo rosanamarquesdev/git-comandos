@@ -24,6 +24,20 @@ ou
     git push -u origin <nome-da-branch>
 ```
 
+**GIT MERGE**
+- Mude (git checkout) para branch que vai receber as modificacoes que foram feitas em outra branch
+- Antes de git merge (na branch que vai receber as modificoes feitas em outra branch) dê o comando:
+
+```bash
+    git pull
+```
+depois de o merge(o nome_da_branc é a branch que vai "doar as novas modificacoes"):
+
+```bash
+    git merge nome_da_branch
+```
+
+
 
 **Criar uma nova branch:**
 
