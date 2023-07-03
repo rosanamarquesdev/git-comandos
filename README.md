@@ -5,6 +5,12 @@ Arquivo de pesquisa:
 https://www.freecodecamp.org/portuguese/news/10-comandos-do-git-que-todo-desenvolvedor-deveria-conhecer/
 ```
 
+- REMOTE
+Para linkar o repositorio remoto com o local:
+```bash
+git remote add origin <url-do-repositorio>
+```
+
 - PUSH
 - Apos fazer o commit. Enviar as alteracoes (atualizar) para o servidor remoto
 
