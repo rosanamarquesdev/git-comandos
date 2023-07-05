@@ -153,3 +153,13 @@ Depois para subir normalmente para o repositorio:
     git push origin nome_da_branch
 ```
 
+**Clonar uma branch especifica de um repositorio**
+````
+git clone -b <branch> --single-branch <repositorio>
+````
+
+#Como clonar um repositorio do GITLAB com SSH
+````
+https://feltex.com.br/blog/clonar-um-projeto-no-gitlab/
+````
+
