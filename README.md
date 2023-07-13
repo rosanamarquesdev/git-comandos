@@ -163,3 +163,19 @@ git clone -b <branch> --single-branch <repositorio>
 https://feltex.com.br/blog/clonar-um-projeto-no-gitlab/
 ````
 
+## Como mudar o nome da branch padrão que o Git cria? ##
+https://pt.stackoverflow.com/questions/576989/como-mudar-o-nome-da-branch-padr%C3%A3o-que-o-git-cria
+
+````
+git init --initial-branch=main
+
+# ou
+
+git init -b main
+````
+
+Ou, se quiser que sempre seja "main", adicione nas configurações:
+
+````
+git config --global init.defaultBranch main
+````
