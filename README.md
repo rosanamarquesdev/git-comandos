@@ -179,3 +179,12 @@ Ou, se quiser que sempre seja "main", adicione nas configurações:
 ````
 git config --global init.defaultBranch main
 ````
+
+## git push: refs/heads/my/subbranch exists, cannot create
+
+- Esse problema da quando ja existe uma branch que pega um pedaco do nome de outra q ja existe
+- https://medium.com/@fengyu214/git-push-refs-heads-my-subbranch-exists-cannot-create-9cec619e0b13
+
+````
+mudar o nome da branch
+````
